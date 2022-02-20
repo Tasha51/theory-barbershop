@@ -1,0 +1,221 @@
+:root {
+  --primary-font: 'Open Sans', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  --light-main-text-color: rgba(85, 85, 85, 1);
+  --light-secondary-text-color: rgba(48, 48, 48, 1);
+  --accent-text-color: rgba(255, 108, 0, 1);
+  --dark-main-text-color: rgba(157, 164, 189, 1);
+  --dark-secondary-text-color: rgba(255, 255, 255, 1);
+
+  --main-bg-color: #ffffff;
+  --secondary-bg-color: #f7f7f7;
+  --dark-bg-color: #191c26;
+}
+.page {
+  font-family: var(--primary-font);
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.header,
+.hero,
+.price,
+.contacts {
+  background-color: var(--light-main-text-color);
+}
+.nav-link,
+.header-tel,
+.header-btn {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--dark-secondary-text-color);
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+}
+.nav-link:hover,
+.nav-link:focus,
+.header-tel:hover,
+.header-tel:focus,
+.header-btn:hover,
+.header-btn:focus,
+.hero-aside-link:hover,
+.hero-aside-link:focus .preview-btn:hover,
+.preview-btn:focus,
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-text-color);
+}
+.header-btn {
+  border-color: var(--accent-text-color);
+  border-radius: 25px;
+  background-color: transparent;
+
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+.hero-aside-link {
+  color: var(--light-secondary-text-color);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+}
+.hero-text-en,
+.preview-first-text,
+.price-text,
+.features-first-text,
+.master-text,
+.services-text,
+.contacts-subtitle {
+  color: var(--dark-main-text-color);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+}
+.hero-title {
+  font-family: var(--secondary-font);
+  color: var(--dark-secondary-text-color);
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05;
+}
+.hero-text,
+.prices-item,
+.contacts-link,
+.contacts-text {
+  color: var(--dark-main-text-color);
+}
+.hero-btn {
+  color: var(--dark-main-text-color);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  background-color: transparent;
+  border: none;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--dark-main-text-color);
+}
+.preview-first-text,
+.features-first-text,
+.master-text,
+.services-text {
+  color: var(--light-secondary-text-color);
+}
+.preview-title,
+.price-title,
+.features-title,
+.master-title,
+.contacts-title {
+  font-family: var(--secondary-font);
+  color: var(--light-secondary-text-color);
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+.preview-subtitle {
+  color: var(--light-secondary-text-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02;
+}
+.preview-second-text {
+  color: var(--light-main-text-color);
+  font-size: 14px;
+  line-height: 1.87;
+}
+.preview-btn,
+.price-btn {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--light-secondary-text-color);
+  line-height: 1.33;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+
+  border-color: var(--accent-text-color);
+  border-radius: 25px;
+  background-color: transparent;
+}
+.price-title,
+.contacts-title {
+  color: var(--dark-secondary-text-color);
+}
+.price-btn {
+  color: var(--dark-secondary-text-color);
+}
+.features-item {
+  background-color: #f7f7f7;
+}
+.features-number {
+  color: var(--light-secondary-text-color);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  letter-spacing: 0.05em;
+}
+.features-number-text {
+  color: var(--light-secondary-text-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+.features-second-text {
+  color: var(--light-main-text-color);
+}
+.master {
+  background-color: #f7f7f7;
+}
+.master-subtitle {
+  color: var(--light-secondary-text-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.02em;
+}
+.master-job {
+  color: var(--accent-text-color);
+  font-size: 14px;
+  line-height: 1.36;
+}
+.services-title {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.contacts-link:nth-child(1) {
+  font-style: normal;
+}
+.contacts-subtitle {
+  color: var(--dark-secondary-text-color);
+}
+.footer-text,
+.footer-link {
+  color: var(--light-main-text-color);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+}
+.footer-link {
+  color: var(--light-secondary-text-color);
+}

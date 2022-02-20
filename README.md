@@ -1,2 +1,2 @@
-# theory-module-01
+# theory-barbershop
 Практика для закрепления теории
